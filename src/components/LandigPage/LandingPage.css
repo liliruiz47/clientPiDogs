@@ -1,0 +1,133 @@
+.container{
+  
+    background-image: url('../../image/cachorros.jpg');
+    background-position:left;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 120vh;
+    text-align:right;
+    margin: 0%;
+    background-size: 71%;
+    
+    
+    margin-left: 200%;
+
+}
+
+  .content {
+    position:relative;
+    width: 25%;
+    height: 100%;
+    display:inline-flex;
+    flex-direction:row-reverse;
+    justify-content:flex-end;
+    align-items:center;
+    color: #790684;
+    margin: 100px;
+    margin-left:0%;
+    text-align:right;
+    margin: 0%;
+    font-family:Impact;
+    margin-right:-40%;
+
+  }
+  
+  .btn {
+    background-color: #af15b8;
+    display:inline-flex;
+    align-items:center;
+    align-content: center;
+    background-color: rgba(165, 74, 155, 0.5);
+    font-weight: 900;
+    font-size:xx-large;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 50px;
+    font-family: 'Robot';
+    backdrop-filter: blur(1px);
+    width: 150px;
+    margin: 30px;
+    justify-content:center;
+    border: none;
+    border-bottom: 10%;
+    
+  }
+  .btn:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    background-color: rgba(160, 25, 140, 0.708);
+  }
+  
+  .textDe {
+    text-decoration: none;
+    
+  }
+  
+  .typewriter h1 {
+    display: inline-flex;
+    font-size: 50px;
+    color: #e65acc;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.05em; /* Adjust as needed */
+    animation: typing 5s steps(30, end), blink-caret 0.5s step-end infinite;
+    margin: 30px;
+    justify-content:right;
+  }
+
+  .subtitle{
+    display:flexbox;
+    justify-content:space-around;
+    align-items:center;
+    margin-right: 50px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
+  @media (max-width: 800px) {
+    .typewriter h1 {
+      font-size: 35px; /* Tamaño de fuente más pequeño */
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .typewriter h1 {
+      font-size: 30px; /* Tamaño de fuente más pequeño */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .typewriter h1 {
+      font-size: 23px; /* Tamaño de fuente más pequeño */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .typewriter h1 {
+      font-size: 20px; /* Tamaño de fuente más pequeño */
+    }
+  }

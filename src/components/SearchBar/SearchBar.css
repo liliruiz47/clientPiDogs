@@ -1,0 +1,122 @@
+.input {
+    color: #ffffff;
+    background-color: #1a1a1a;
+  }
+  
+  .input:focus {
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+  
+  .input:hover {
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+  
+  
+  .button {
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-left: 25px;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .searchBarObject {
+    margin: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input{
+    border-radius: 15px;
+    margin: 5px;
+    padding: 2px;
+    line-height: 2.05;
+  }
+  
+  button{
+    margin: 5px;
+    padding: 2px;
+    border-radius: 15px;
+  }
+
+  /*///////*/
+  .inputText{
+    outline: none;
+    border-radius: 12px;
+    padding: 1.5vh;
+    padding-left: 2.5vh;
+    height: 80px;
+    width: 80px;
+    border:#1a1a1a;
+    transition: width 0.5s;
+    background: #b0186e ;
+    color: rgba(186, 55, 165, 0.767);
+    font-size:medium ;
+
+    text-align: center;
+    font-weight:bolder;
+
+}
+
+.inputText::placeholder{
+    color: floralwhite;
+    /* text-align: left; */
+}
+
+.inputText:focus{
+    width: 50vh;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FB95D5 ;
+  width: 100%;  
+  height: 100%;
+  top: 0;
+  color: #ef7ebc;
+
+
+}

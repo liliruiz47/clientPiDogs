@@ -1,0 +1,258 @@
+/*.divDetail {
+  background-color: #ebc5dc;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#8e148c
+}*/
+
+/*.name {
+  color: #8e148c;
+  text-align: center;
+  text-decoration: underline overline;
+}*/
+/*
+.asd {
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+}
+
+.asd li {
+  display: block;
+  padding: 10px;
+}
+
+.image {
+  height: 100%;
+  max-height: 400px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 30px 40px 15px 0px #121212;
+}
+
+.allTemps {
+  display: inline-block;
+  font-size: medium;
+  padding: 0;
+  margin: 5px;
+  color: #946ce3;
+}
+
+.allTemps li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.caracts {
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 30px
+}
+
+p {
+  color: #fff;
+  font-size: medium;
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin-top: 5px;
+}
+
+.last {
+  margin-bottom: 40px;
+}
+
+.loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: #f874f1;
+
+}
+
+.welcome {
+  border-radius: 4px;
+  background-color: #c152ad;
+  border: none;
+  color: #edebf5;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  left: 37%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.welcome span:after {
+  content: '\00ab';
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.welcome:hover span {
+  padding-left: 25px;
+}
+
+.welcome:hover {
+  background-color: #eae9f0;
+  color: #121212;
+}
+
+.welcome:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  */
+
+  .bodix {
+    width: 75%;
+    height: 95%;
+    font-size: 20px;
+  }
+  
+  .mainContainer {
+    margin-top: 2%;
+    margin-right: 10px;
+    margin-left: 220px;
+    /*width: 70%;
+    height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    /*background-color: rgb(245, 177, 225);*/
+    box-shadow: 6px 7px 8px -6px rgba(69, 69, 69, 0.7);
+    border-radius: 15px;
+    color: white;
+    background-color: #ebc5dc;
+  width: 70%;
+  height: 80%;
+  position:relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+    
+  }
+  
+  .mainTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 45px;
+    color:rgb(173, 67, 148);
+  }
+  
+  .image {
+    border-radius: 15px;
+    height: 350px;
+    border: 3px white solid;
+    box-shadow: 6px 7px 8px -6px rgba(255, 245, 245, 0.7);
+  }
+  
+  .detailsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(209, 100, 176, 0.879);
+    padding: 8px;
+    border-radius: 15px;
+    max-width: 80%;
+    min-height: 25%;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .breed_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+  }
+  
+  .temperament {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .life_span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+  }
+  
+  .weights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+  }
+  
+  .heights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+  }
+  
+  .detailsSVG {
+    width: 100px;
+    background-color: rgb(3, 59, 8);
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .button {
+    background-color: rgb(244, 150, 225);
+    color: rgb(198, 5, 160);
+    cursor: pointer;
+    line-height: 2.1;
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: -3000px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-inline-start:  10px;
+    border: none;
+  }
+  
+  .imageSection {
+    padding: 5px;
+    margin: 15px;
+  }
+  
+  .infoSection {
+    padding: 5px;
+    margin: 15px;
+  }
+  
+  .xBone {
+    height: 25px;
+  }
+
+  
