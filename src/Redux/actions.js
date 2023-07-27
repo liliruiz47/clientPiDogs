@@ -29,29 +29,7 @@ export function getDogs() {
     }
 }
 
-/*export function getDogs(name) {
-    return async function (dispatch) {
-        try {
-            if (name) {
-                return axios.get('/dogs?name=' + name)
-                    .then(res => dispatch({ type: GET_DOGS, payload: res.data }))
-                    .catch(err => dispatch({ type: GET_DOGS, payload: err.data }))
-            }
-            let json = await axios.get('/dogs', {})
-            return dispatch({
-                type: GET_DOGS,
-                payload: json.data
-            })
-        } catch (err) {
-            var fail = axios.get('/dogs?name=' + name)
-                .then(res => res.data)
-            return dispatch({
-                type: SEARCH_FAIL,
-                payload: fail,
-                })
-            }
-        }
-    }*/
+
 
     export function getDogsByName(name) {
         return async function (dispatch) {
@@ -131,7 +109,7 @@ export function getDetails(id) {
 }
 
 export function postDog(payload) {
-    return async function (dispatch) {
+    return async function ( ) {
         const response = await axios.post('http://localhost:3001/dogs', payload)
         console.log(response)
         return response;
